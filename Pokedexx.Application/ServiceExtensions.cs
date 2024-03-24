@@ -15,6 +15,7 @@ namespace Pokedexx.Application
         {
             services.AddScoped<IGetPokemonByPokemonIdUseCase, GetPokemonByPokemonIdUseCase>();
             return services;
+            //Comentario prueba
         }
     }
 }

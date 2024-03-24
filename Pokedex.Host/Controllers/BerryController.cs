@@ -22,6 +22,7 @@ namespace Pokedex.Host.Controllers
             if(int.TryParse(name, out int id))
             {
                 return Task.FromResult<IActionResult>(Ok("con id: "+id));
+                //PETICION A BASE DE DATOS
             }
             else
             {
