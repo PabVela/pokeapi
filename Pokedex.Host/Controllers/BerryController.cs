@@ -23,6 +23,7 @@ namespace Pokedex.Host.Controllers
             {
                 return Task.FromResult<IActionResult>(Ok("con id: "+id));
                 //PETICION A BASE DE DATOS
+                //Prueba de push externo
             }
             else
             {
